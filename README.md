@@ -25,25 +25,8 @@
 - IDE/Tool : Spring Tool Suite 4 (Eclipse)
 
 
-## Installation :
 
-1. Clone the repository : $ git clone https://github.com/SnehalAShinde/Spring_Boot_Project.git <br>
-           OR
-   Download the zip
 
-1. Import the project inside STS/Eclipse : <br>
-     - Open STS/Eclipse > file > import > maven > existing project > browse > finish . <br>
-     
-2. Make sure you are in the SS_Beauty_Products directory. <br>
-
-4.Configure the database connection in application.properties (check the Database section for more information). <br>
-
-5.Run the project (by running main method is SsBeautyProductsApplication.java) OR right clink on the project > Run As > Spring Boot App. <br>
-
-6.Open http://localhost:8080/home in any browser. <br>
-
-7.Now your tables will be created in the databse. <br>
-   - You have to add one admin data manually to login as admin, So add one admin data. <br>
     
 
 ## Database :
