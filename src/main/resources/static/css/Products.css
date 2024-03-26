@@ -1,0 +1,61 @@
+body
+{
+	background-image: url("/Images/footer-bg1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+    
+   .p2{
+	   
+        display: flex;
+        padding: 0px;
+/*        background-color: rgb(161, 240, 158);
+*/    }
+    
+  img{
+	  height: 300px;
+	  width: 300px;
+	  border-radius: 8px;
+  }
+  img:hover{
+	  transform: scale(1.1);
+	  transition: all 1s;
+  }
+  h3,h4{
+	  text-align: center;
+	  color: white;
+	  font-size: 20px;
+	  background-color: darksalmon;
+	  width: 120px;
+	  
+  }
+  h3:hover{
+	  color:rgb(255, 255, 255);
+	    transform: scale(1.1);
+        transition: all 1s;
+  }
+  h4:hover{
+	  color: rgb(0, 64, 128);
+	 transform: scale(1.1);
+	 transition: all 1s;
+  }
+  section{
+	  padding:50px 35px 35px 10px;
+	  position: sticky;
+	  width: 50rem;
+	  
+  }
+  
+  .a10{
+	  margin-left: 10px;
+  }
+  .a1{
+	  margin-left: 40px;
+  }
+  .a3{
+	  margin-left: 20px;
+  }
+  .a2{
+	  margin-left: 20px;
+	  
+  }

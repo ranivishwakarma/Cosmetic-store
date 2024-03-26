@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body,
+ul {
+    margin: 0;
+    padding: 0;
+  /*  overflow: hidden;*/
+}
+
+nav {
+    background-color: rgb(101, 1, 84);
+    color: rgb(255, 255, 255);
+    position:sticky;
+    z-index: 1;
+    top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 9px;
+}
+
+li {
+    margin: 0px 0px 0px 6px;
+}
+
+a {
+    text-decoration:none;
+    color: rgb(192, 192, 192);
+    font-weight:900;
+    /* transition: color 0.3s; */
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:hover {
+    color: rgb(255, 255, 255) ;
+    transition: 0.3s;
+}
+
+.Owner_Logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 60%;
+}
+button
+{
+    color: red;
+    border: none;
+    font-size: 20px;
+   background-color: transparent;
+}
